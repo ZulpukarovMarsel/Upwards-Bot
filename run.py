@@ -15,7 +15,6 @@ if __name__ == '__main__':
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Бот остановлен пользователом")
-
     except Exception as e:
         print(f"Возникла ошибка: {e}")
 
